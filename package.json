@@ -1,0 +1,49 @@
+{
+  "name": "qiniu",
+  "version": "7.0.0",
+
+  "author": "qiniu",
+
+  "keywords": [
+    "cloud",
+    "storage",
+    "s3",
+    "qiniu",
+    "web-service"
+  ],
+
+  "description": "NodeJS SDK for Qiniu Resource (Cloud) Storage",
+
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://raw.githubusercontent.com/qiniu/nodejs-sdk/master/LICENSE"
+  }],
+
+ "repository": {
+    "type": "git",
+    "url": "git://github.com/qiniu/nodejs-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qiniu/nodejs-sdk/issues"
+  },
+
+  "dependencies": {
+    "coffee-script":      "1.8.0",
+    "optparse":           "1.0.5",
+    "log":                "1.4.0",
+    "mime":               "1.2.1",
+    "request":            "2.51.0",
+    "crc":                "3.2.1"
+  },
+
+  "engines": {
+    "node": ">= 0.8.x",
+    "npm":  ">= 1.1.x"
+  },
+
+  "main": "./index",
+
+  "bin": {
+    "qiniunode": "./bin/qiniu"
+  }
+}
